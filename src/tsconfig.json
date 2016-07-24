@@ -15,9 +15,11 @@
     "target": "es5",
     "inlineSources": true
   },
-
   "files": [
     "main.ts",
-    "typings.d.ts"
+    "typings.d.ts",
+    "node_modules/phaser/typescript/phaser.d.ts",
+    "node_modules/phaser/typescript/p2.d.ts",
+    "node_modules/phaser/typescript/pixi.d.ts"
   ]
 }

@@ -34,6 +34,7 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/board',
   /** @cli-barrel */
 ];
 
@@ -50,7 +51,8 @@ System.config({
   map: {
     '@angular': 'vendor/@angular',
     'rxjs': 'vendor/rxjs',
-    'main': 'main.js'
+    'main': 'main.js',
+    'phaser': 'vendor/phaser/build/phaser.min.js'
   },
   packages: cliSystemConfigPackages
 });
